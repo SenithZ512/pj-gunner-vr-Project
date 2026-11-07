@@ -73,3 +73,13 @@ desktop.ini
 # Stray clone of the other GitHub repo (SenithZ512/pj-gunner-vr) that ended up
 # inside this project folder — safe to delete; it only holds a .gitignore.
 /pj gunner vr/
+
+# Archives (never commit project zips/rars)
+*.rar
+*.zip
+*.7z
+
+# Player build output
+/Midtram Project/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
